@@ -1,0 +1,15 @@
+{
+  "name": "piston-website",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/piston/piston-website.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-watch": "~0.6.0",
+    "grunt-contrib-sass": "~0.7.3",
+    "grunt-autoprefixer": "~0.7.2",
+    "grunt-php": "~0.3.3"
+  }
+}
