@@ -9,7 +9,7 @@ if ( have_posts() ) while ( have_posts() ) : the_post();
 ?>
 
 <div id="home-header">
-	<img id="eric-head" src="<?php bloginfo('template_directory'); ?>/images/eric-frank.png" alt="Eric Frank" />
+	<img id="eric-head" src="/images/eric-frank.png" alt="Eric Frank" />
 	<h1>Designing and developing, all over California.</h1>
 	<p>I live happily in <del>Los Angeles</del> <ins>San Francisco</ins>, and design in-residence at <a href="http://www.pistoncloud.com">Piston</a>. I stand for responsive design, really big type, and the best cocktails.</p>
 </div>
@@ -20,17 +20,17 @@ if ( have_posts() ) while ( have_posts() ) : the_post();
 
 <div class="grid" id="recent">
 	<a class="grid-1-3" href="/piston">
-		<p><img src="<?php bloginfo('template_directory'); ?>/images/piston.png" alt="Piston Cloud Computing" /></p>
+		<p><img src="/images/piston.png" alt="Piston Cloud Computing" /></p>
 		<h3>Piston</h3>
 		<p>Building the future of open cloud software.</p>
 	</a>
 	<a class="grid-1-3" href="/andrew-heringer">
-		<p><img src="<?php bloginfo('template_directory'); ?>/images/andrew-heringer.png" alt="Andrew Heringer" /></p>
+		<p><img src="/images/andrew-heringer.png" alt="Andrew Heringer" /></p>
 		<h3>Andrew Heringer</h3>
 		<p>Singer/guitarist of Los Angeles' Milo Greene.</p>
 	</a>
 	<a class="grid-1-3" href="/breadbrothers">
-		<p><img src="<?php bloginfo('template_directory'); ?>/images/breadbros.png" alt="Breadbrothers Games" /></p>
+		<p><img src="/images/breadbros.png" alt="Breadbrothers Games" /></p>
 		<h3>Breadbrothers</h3>
 		<p>Indie RPGs for those who love indie RPGs.</p>
 	</a> 
