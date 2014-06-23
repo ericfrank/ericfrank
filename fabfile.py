@@ -2,26 +2,16 @@ from fabric.api import env, roles, run, cd
 
 # Define sets of servers as roles
 env.roledefs = {
-    'web': ['pistoncloud.com'],
+    'web': ['ericfrank.com'],
 }
 
 # Set the user to use for ssh
-env.user = 'pistoncloud.com'
+env.user = 'defericf'
 
 
 @roles('web')
 def deploy():
-    with cd('~/domains/pistoncloud.com/html'):
+    with cd('~/ericfrank.com'):
         run('git checkout master')
-        run('git pull piston master')
-        #run('grunt')
-        run('cp htaccess.txt .htaccess')
+        run('git pull ericfrank master')
         
-@roles('web')
-def deploy_dev():
-   with cd('~/domains/dev.pistoncloud.com/html'):
-       run('git checkout dev')
-       run('git pull piston dev')
-       #run('grunt')
-       run('cp htaccess.txt .htaccess')
-

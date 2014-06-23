@@ -28,7 +28,8 @@ module.exports = function(grunt) {
         php: {
             watch: {},
             options: {
-                open: true
+                open: true,
+                router: 'router.php',
             }
         },
 
