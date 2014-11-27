@@ -11,7 +11,7 @@ if ( have_posts() ) while ( have_posts() ) : the_post();
 <div id="home-header">
 	<img id="eric-head" src="/images/eric-frank.png" alt="Eric Frank" />
 	<h1>Designing and developing, all over California.</h1>
-	<p>I live happily in <del>Los Angeles</del> <ins>San Francisco</ins>, and design in-residence at <a href="http://www.pistoncloud.com">Piston</a>. I stand for responsive design, really big type, and the best cocktails.</p>
+	<p>I live happily in <del>Los Angeles</del> <ins>Oakland</ins>, and design in-residence at <a href="http://www.pistoncloud.com">Piston</a>. I stand for responsive design, really big type, and the best cocktails.</p>
 </div>
 
 <hr />
