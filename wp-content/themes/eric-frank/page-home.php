@@ -11,46 +11,8 @@ if ( have_posts() ) while ( have_posts() ) : the_post();
 <div id="home-header">
 	<img id="eric-head" src="/images/eric-frank.png" alt="Eric Frank" />
 	<h1>Designing and developing, all over California.</h1>
-	<p>I live happily in <del>Los Angeles</del> <ins>Oakland</ins>, and design in-residence at <a href="http://www.pistoncloud.com">Piston</a>. I stand for responsive design, really big type, and the best cocktails.</p>
-</div>
-
-<hr />
-
-<h2 class="center">Recent Work</h2>
-
-<div class="grid" id="recent">
-	<a class="grid-1-3" href="/piston">
-		<p><img src="/images/piston.png" alt="Piston Cloud Computing" /></p>
-		<h3>Piston</h3>
-		<p>Building the future of open cloud software.</p>
-	</a>
-	<a class="grid-1-3" href="/andrew-heringer">
-		<p><img src="/images/andrew-heringer.png" alt="Andrew Heringer" /></p>
-		<h3>Andrew Heringer</h3>
-		<p>Singer/guitarist of Los Angeles' Milo Greene.</p>
-	</a>
-	<a class="grid-1-3" href="/breadbrothers">
-		<p><img src="/images/breadbros.png" alt="Breadbrothers Games" /></p>
-		<h3>Breadbrothers</h3>
-		<p>Indie RPGs for those who love indie RPGs.</p>
-	</a> 
-</div>
-
-<hr />
-
-<h2 class="center">What else?</h2>
-
-<div class="grid center">
-	<a class="grid-1-2 box" href="/logos">
-		<h3>Logos</h3>
-		<p>A selection of logos I have organically and locally hand-crafted out of kale.</p>
-	</a>
-	<!--
-	<a class="grid-1-2 box" href="/graphics">
-		<h3>Graphics</h3>
-		<p>Posters, ideas, &amp; designs. AKA what I'm really doing when I tell people I'm busy.</p>
-	</a>
-	-->
+    <p>I'm part of a small-yet-growing group of interaction designers who skip the Photoshop mockups and go straight into the code. Some call us <a href="http://www.meetup.com/Designers-Who-Code/">Designers Who Code</a>. Which makes sense, really.</p>
+    <p>You can usually find me building dashboards with the engineering team at <a href="http://pistoncloud.com">Piston</a>. But you can <em>usually</em> find me searching for the perfect cocktail in Oakland. I'm not looking for new opportunities at the moment, but I'm always <a href="mailto:eric@ericfrank.com">happy to talk</a>. Especially if you want to recommend some new music <a href="http://www.rdio.com/people/mrericfrank/">I should be listening</a> to.</p>
 </div>
 
 <?php
