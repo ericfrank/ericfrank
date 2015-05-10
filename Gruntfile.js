@@ -29,7 +29,6 @@ module.exports = function(grunt) {
             watch: {},
             options: {
                 open: true,
-                router: 'router.php',
             }
         },
 

@@ -30,8 +30,7 @@ nav,
 li                  {
     position:relative;
 }
-header:after,
-.group:after { /* For clearing */
+.group:after {
     content: "";
     display: table;
     clear: both;
@@ -42,7 +41,7 @@ header:after,
     left: -9999px;
 }
 body {
-    -webkit-backface-visibility: hidden; /* Triggers hardware acceleration for animations */
+    -webkit-backface-visibility: hidden;
 }
 * {
     box-sizing: border-box;
@@ -213,11 +212,7 @@ a.box {
     display: block;
     max-width: 200px;
     margin: 0 auto 1em;
-}
-@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) { 
-    #eric-head {
-        content: url(/images/eric-frank-2x.png);
-    }
+    border-radius: 100%;
 }
 
 /* ---------------------------------------------------------------------------------------------------------- 
@@ -229,32 +224,6 @@ Specific Pages -----------------------------------------------------------------
         line-height: 1.1;
         margin-bottom: 1rem;
     }
-}
-#recent {
-    img {
-        border-radius: 100%;
-        border: 1px solid $color-line;
-        padding: .1em;
-    }
-    p {
-        margin-bottom: .5em;
-    }
-    .grid-1-3 {
-        text-align: center;
-    }
-    a:hover {
-        img {
-            border-color: $color-link;
-        }
-        h3 {
-            color: $color-link;
-        }
-    }
-}
-.devices {
-    max-width: 676px;
-    margin: 0 auto;
-    display: block;
 }
 
 /* ---------------------------------------------------------------------------------------------------------- 
@@ -275,11 +244,6 @@ header {
             color: $color-heading;
         }
     }
-}
-#eric-header {
-    width: 2.5em;
-    margin-bottom: 0;
-    vertical-align: -37%;
 }
 
 /* ---------------------------------------------------------------------------------------------------------- 

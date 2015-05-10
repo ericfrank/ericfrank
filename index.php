@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/build/production.css"  />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    <title>Eric Frank</title>
+
+    <!-- TypeKit -->
+    <script type="text/javascript" src="//use.typekit.net/wbq7cpj.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <meta name="description" content="I'm part of a small-yet-growing group of interaction designers who skip the Photoshop mockups and go straight into the code. Some call us Designers Who Code. Which makes sense, really." />
+
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-7424650-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="home-header">
+            <img id="eric-head" src="/images/eric-frank.jpg" alt="Eric Frank" />
+            <h1>Designing and developing, all over California.</h1>
+            <p>I'm part of a small-yet-growing group of interaction designers who skip the Photoshop mockups and go straight into the code. Some call us <a href="http://www.meetup.com/Designers-Who-Code/">Designers Who Code</a>. Which makes sense, really.</p>
+            <p>You can usually find me building dashboards with the engineering team at <a href="http://pistoncloud.com">Piston</a>. But you can <em>usually</em> find me searching for the perfect cocktail in Oakland. I'm not looking for new opportunities at the moment, but I'm always <a href="mailto:eric@ericfrank.com">happy to talk</a>. Especially if you want to recommend some new music <a href="http://www.rdio.com/people/mrericfrank/">I should be listening</a> to.</p>
+        </div>
+
+        <footer>
+            <ul>
+                <li><a class="icon-alone" href="http://www.twitter.com/mrericfrank" data-icon="&#xe000;"><div class="tooltip">Twitter</div></a></li>
+                <li><a class="icon-alone" href="mailto:eric@ericfrank.com" data-icon="&#xe001;"><div class="tooltip">Email</div></a></li>
+            </ul>
+        </footer>
+</div>
+
+</body>
+</html>
