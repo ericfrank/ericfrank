@@ -34,9 +34,9 @@
     <div class="container">
         <div id="home-header">
             <img id="eric-head" src="/images/eric-frank.jpg" alt="Eric Frank" />
-            <h1>Designing and developing, all over California.</h1>
             <p>I'm part of a small-yet-growing group of interaction designers who skip the Photoshop mockups and go straight into the code. Some call us <a href="http://www.meetup.com/Designers-Who-Code/">Designers Who Code</a>. Which makes sense, really.</p>
-            <p>You can usually find me building dashboards with the engineering team at <a href="http://pistoncloud.com">Piston</a>. But you can <em>usually</em> find me searching for the perfect cocktail in Oakland. I'm not looking for new opportunities at the moment, but I'm always <a href="mailto:eric@ericfrank.com">happy to talk</a>. Especially if you want to recommend some new music <a href="http://www.rdio.com/people/mrericfrank/">I should be listening</a> to.</p>
+            <p>I used to build cloud computing dashboards with the engineering team at <a href="http://pistoncloud.com">Piston</a> (acquired by <a href="http://www.cisco.com">Cisco</a> this year), but these days you can find me attempting to bridge the worlds of fashion and technology at <a href="http://mmlafleur.com">MM.LaFleur</a> in New York. I'm not looking for new opportunities at the moment, but I'm always <a href="mailto:eric@ericfrank.com">happy to talk</a>. Especially if you want to recommend some new music <a href="http://www.rdio.com/people/mrericfrank/">I should be listening</a> to.</p>
+            <p>Oh, and cocktails.</p>
         </div>
 
         <footer>
