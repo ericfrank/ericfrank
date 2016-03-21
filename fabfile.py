@@ -13,5 +13,5 @@ env.user = 'defericf'
 def deploy():
     with cd('~/ericfrank.com'):
         run('git checkout master')
-        run('git pull ericfrank master')
+        run('git pull -f ericfrank master')
         

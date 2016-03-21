@@ -28,6 +28,7 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
+    <meta name="google-site-verification" content="uIp0rQbfx3Uic2MeKUmv6NJSSX_IcDq_jibIUsbJPgA" />
 </head>
 
 <body>
@@ -35,8 +36,8 @@
         <div id="home-header">
             <img id="eric-head" src="/images/eric-frank.jpg" alt="Eric Frank" />
             <p>I'm part of a small-yet-growing group of interaction designers who skip the Photoshop mockups and go straight into the code. Some call us <a href="http://www.meetup.com/Designers-Who-Code/">Designers Who Code</a>. Which makes sense, really.</p>
-            <p>I've built cloud computing dashboards with the engineering team at <a href="http://pistoncloud.com">Piston</a> (acquired by <a href="http://www.cisco.com">Cisco</a> this year), but these days you can find me attempting to bridge the worlds of fashion and technology at <a href="http://mmlafleur.com">MM.LaFleur</a> in New York. I'm not looking for new opportunities at the moment, but I'm always <a href="mailto:eric@ericfrank.com">happy to talk</a>. Especially if you want to recommend some new music <a href="http://www.rdio.com/people/mrericfrank/">I should be listening</a> to.</p>
-            <p>Oh, and cocktails.</p>
+            <p>I've built cloud computing dashboards with the engineering team at <a href="http://pistoncloud.com">Piston</a> (acquired by <a href="http://www.cisco.com">Cisco</a>), but these days you can find me bridging the worlds of fashion and technology at <a href="http://mmlafleur.com">MM.LaFleur</a> in New York. I'm not looking for new opportunities at the moment, but I'm always <a href="mailto:eric@ericfrank.com">happy to talk</a>. Especially if you want to recommend some new music <a href="https://open.spotify.com/user/12168548333">I should be listening</a> to.</p>
+            <p>Oh, and <a href="https://medium.com/@mrericfrank">cocktails</a>.</p>
         </div>
 
         <footer>
