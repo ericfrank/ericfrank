@@ -14,7 +14,7 @@
     <script type="text/javascript" src="//use.typekit.net/wbq7cpj.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-    <meta name="description" content="I'm part of a small-yet-growing group of interaction designers who skip the Photoshop mockups and go straight into the code. Some call us Designers Who Code. Which makes sense, really." />
+    <meta name="description" content="I build engineering teams that are strongly rooted in UX and design." />
 
     <!-- Google Analytics -->
     <script type="text/javascript">
@@ -35,8 +35,8 @@
     <div class="container">
         <div id="home-header">
             <img id="eric-head" src="/images/eric-frank.jpg" alt="Eric Frank" />
-            <p>I'm part of a small-yet-growing group of interaction designers who skip the Photoshop mockups and go straight into the code. Some call us <a href="http://www.meetup.com/Designers-Who-Code/">Designers Who Code</a>. Which makes sense, really.</p>
-            <p>I've built cloud computing dashboards with the engineering team at <a href="http://pistoncloud.com">Piston</a> (acquired by <a href="http://www.cisco.com">Cisco</a>), but these days you can find me bridging the worlds of fashion and technology at <a href="http://mmlafleur.com">MM.LaFleur</a> in New York. I'm not looking for new opportunities at the moment, but I'm always <a href="mailto:eric@ericfrank.com">happy to talk</a>. Especially if you want to recommend some new music <a href="https://open.spotify.com/user/12168548333">I should be listening</a> to.</p>
+            <p>I build engineering teams that are strongly rooted in UX and design. Some call us <a href="http://www.meetup.com/Designers-Who-Code/">Designers Who Code</a>. Which makes sense, really.</p>
+            <p>I've built cloud computing dashboards with the engineering team at <a href="http://pistoncloud.com">Piston</a> (acquired by <a href="http://www.cisco.com">Cisco</a>), but these days you can find me bridging the worlds of fashion and technology at <a href="https://mmlafleur.com">MM.LaFleur</a> in New York. I'm not looking for new opportunities at the moment, but I'm always <a href="mailto:eric@ericfrank.com">happy to talk</a>. Especially if you want to recommend some new music <a href="https://open.spotify.com/user/12168548333">I should be listening</a> to.</p>
             <p>Oh, and <a href="https://medium.com/@mrericfrank">cocktails</a>.</p>
         </div>
 
