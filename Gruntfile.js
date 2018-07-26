@@ -17,7 +17,7 @@ module.exports = function(grunt) {
         autoprefixer: {
             dist: {
                 options: {
-                    browsers: ['last 2 versions', 'ie 8', 'ie 9']
+                    browsers: ['>0.25%', 'not op_mini all']
                 },
                 files: {
                     'css/build/production.css': 'css/build/production.css'
@@ -41,7 +41,7 @@ module.exports = function(grunt) {
                 }
             },
         },
-   
+
     });
 
     grunt.loadNpmTasks('grunt-contrib-sass');
@@ -53,4 +53,3 @@ module.exports = function(grunt) {
     grunt.registerTask('build', ['sass', 'autoprefixer']);
 
 };
-
