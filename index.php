@@ -37,7 +37,6 @@
             <img id="eric-head" src="/images/eric-frank.jpg" alt="Eric Frank" />
             <p>I'm a California-born, Brooklyn-residing engineering leader focused on building teams that are strongly rooted in UX.</p>
             <p>I was an early employee at the cloud computing startup <a href="http://pistoncloud.com">Piston</a> (later acquired by <a href="https://www.cisco.com">Cisco</a>) before setting out to bridge the worlds of fashion and technology at <a href="https://mmlafleur.com">MM.LaFleur</a> in New York. These days, I'm working on the future of cloud at <a href="https://cloud.oracle.com">Oracle</a>. I'm not looking for new opportunities at the moment, but I'm always <a href="mailto:eric@ericfrank.com">happy to talk</a>. Especially if you want to recommend some new music <a href="https://open.spotify.com/user/12168548333">I should be listening</a> to.</p>
-            <p>Oh, and <a href="https://medium.com/@mrericfrank">cocktails</a>.</p>
             <footer>
                 <ul>
                     <li><a class="icon-alone" href="mailto:eric@ericfrank.com" data-icon="&#xe001;"><div class="tooltip">Email&nbsp;</div></a></li>
