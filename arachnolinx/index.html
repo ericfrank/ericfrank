@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>🕷 Arachnolinx 🕸</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      textarea {
+        font-family: 'Creepster', cursive;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 100%;
+        color: #ffad41;
+      }
+
+      html {
+        background-color: #191919;
+        height: 100%;
+        animation: lightning 10s infinite;
+      }
+
+      body {
+        max-width: 40rem;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+
+      h1 {
+        font-size: 3rem;
+        margin: 0 0 2rem;
+      }
+
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 2.3rem;
+        }
+      }
+
+      textarea {
+        background-color: #505050;
+        resize: none;
+        border: none;
+        font-size: 2rem;
+        height: 15rem;
+        width: 100%;
+        padding: 1rem;
+        color: #fff;
+        margin-bottom: 4rem;
+      }
+
+      textarea:focus {
+        outline-color: #ffad41;
+        outline-width: 2px;
+      }
+
+      ::placeholder {
+        color: #AAA;
+      }
+
+      @keyframes lightning {
+        0% {
+          background-color: #191919;
+        }
+
+        80.9% {
+          background-color: #191919;
+        }
+
+        81% {
+          background-color: #fff;
+        }
+
+        81.9% {
+          background-color: #aaa;
+        }
+
+        82% {
+          background-color: #fff;
+        }
+
+        90% {
+          background-color: #191919;
+        }
+
+        100% {
+          background-color: #191919;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>🕷 Arachnolinx 🕸</h1>
+    <textarea placeholder="Type something..." spellcheck="false"></textarea>
+    <script>
+      const spiderWords = [
+        'spider',
+        'web',
+        'venom',
+        'itsy',
+        'bitsy',
+        'eight-legged',
+        'fang',
+        'crawl',
+        'black window',
+        'brown recluse',
+        'bite',
+        '🕷',
+        '🕸',
+      ];
+      const textarea = document.querySelector('textarea');
+
+      textarea.addEventListener('keyup', (event) => {
+        if (event.key === ' ') {
+          const split = textarea.value.split(' ');
+          const randomWord = spiderWords[Math.floor(Math.random() * spiderWords.length)];
+
+          split.pop();
+          split.pop();
+
+          textarea.value = `${split.join(' ').trim()}${split.length ? ' ' : ''}${randomWord} `;
+        }
+      });
+    </script>
+  </body>
+</html>
+
