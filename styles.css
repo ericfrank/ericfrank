@@ -1,66 +1,53 @@
-/* Reset */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-body {
-    line-height: 1;
-}
-ol, ul {
-    list-style: none;
-}
-blockquote, q {
-    quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
+a,
+body,
+div,
+footer,
+html,
+i,
+img,
+li,
+p,
+s,
+ul,
+var {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline
 }
 
-/* Application */
+footer {
+	display: block
+}
+
+body {
+	line-height: 1
+}
+
+ul {
+	list-style: none
+}
+
 @font-face {
-	font-family: 'icomoon';
-	src: url("fonts/icomoon.eot");
-	src: url("fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("fonts/icomoon.svg#icomoon") format("svg"), url("fonts/icomoon.woff") format("woff"), url("fonts/icomoon.ttf") format("truetype")
+	font-family: icomoon;
+	src: url(/fonts/icomoon.eot);
+	src: url(/fonts/icomoon.eot?#iefix) format("embedded-opentype"), url(/fonts/icomoon.svg#icomoon) format("svg"), url(/fonts/icomoon.woff) format("woff"), url(/fonts/icomoon.ttf) format("truetype")
 }
 
 [data-icon]:before {
-	font-family: 'icomoon';
+	font-family: icomoon;
 	content: attr(data-icon);
 	speak: none;
-	font-weight: normal;
+	font-weight: 400;
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale
 }
 
 div,
-article,
-section,
-header,
 footer,
-nav,
 li {
 	position: relative
 }
@@ -69,10 +56,8 @@ li {
 	box-sizing: border-box
 }
 
-html,
-input,
-textarea {
-	font-family: "ff-spinoza-web-pro", serif;
+html {
+	font-family: ff-spinoza-web-pro, serif;
 	font-weight: 400;
 	line-height: 1.5;
 	color: #333;
@@ -84,42 +69,13 @@ body {
 	background-color: #fff
 }
 
-h1,
-h2,
-h3 {
-	color: #444;
-	margin-bottom: 1.5rem
-}
-
-h1 {
-	font-weight: 600;
-	font-size: 2rem;
-	line-height: 1.25
-}
-
-h2 {
-	font-weight: 400;
-	font-style: italic;
-	font-size: 1.2rem
-}
-
-h3 {
-	font-weight: 600;
-	font-size: 1rem;
-	margin-bottom: 0
-}
-
 p {
 	margin-bottom: 1.5rem;
 	line-height: 1.5
 }
 
-em {
-	font-style: italic
-}
-
 a {
-	color: #099FF3;
+	color: #099ff3;
 	text-decoration: none;
 	cursor: pointer
 }
@@ -133,44 +89,30 @@ a p {
 }
 
 a,
-a h1,
-a h2,
-a h3,
 a img {
 	transition: all .4s ease
 }
 
 ::selection {
-	background: #F5F5F5
+	background: #f5f5f5
 }
 
 ::-moz-selection {
-	background: #F5F5F5
+	background: #f5f5f5
 }
 
 .icon-alone {
 	font-size: .8em
 }
 
-hr {
-	height: 1px;
-	background-color: #e6e6e6;
-	border-style: none;
-	margin: 1.5em 0
-}
-
-html,
-body {
+body,
+html {
 	height: 100%
 }
 
 img {
 	width: 100%;
 	height: auto
-}
-
-.center {
-	text-align: center
 }
 
 .container {
@@ -202,7 +144,7 @@ footer a {
 }
 
 footer a:hover {
-	color: #099FF3
+	color: #099ff3
 }
 
 footer li {
@@ -228,22 +170,22 @@ footer .icon-alone {
 	font-size: .6em;
 	font-style: italic;
 	text-transform: lowercase;
-	background-color: #099FF3;
-	color: #FFF;
+	background-color: #099ff3;
+	color: #fff;
 	border-radius: 100%
 }
 
 .tooltip:after {
 	content: "";
-	width: 0px;
-	height: 0px;
+	width: 0;
+	height: 0;
 	position: relative;
 	bottom: -.75em;
 	display: block;
 	margin: 0 auto;
 	border-right: .6em solid transparent;
 	border-left: .6em solid transparent;
-	border-top: 0.6em solid #099FF3
+	border-top: .6em solid #099ff3
 }
 
 footer a:hover .tooltip {
@@ -264,13 +206,13 @@ footer a:hover .tooltip {
 	}
 }
 
-@media screen and (min-width: 0px) {
+@media screen and (min-width:0px) {
 	html {
 		font-size: 110%
 	}
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width:800px) {
 	html {
 		font-size: 150%
 	}
