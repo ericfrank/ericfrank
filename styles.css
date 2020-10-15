@@ -1,3 +1,9 @@
+:root {
+	--color-primary: #099ff3;
+	--transition: all .3s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+/* Reset */
 a,
 body,
 div,
@@ -15,45 +21,11 @@ var {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline
-}
-
-footer {
-	display: block
-}
-
-body {
-	line-height: 1
-}
-
-ul {
-	list-style: none
-}
-
-@font-face {
-	font-family: icomoon;
-	src: url(/fonts/icomoon.eot);
-	src: url(/fonts/icomoon.eot?#iefix) format("embedded-opentype"), url(/fonts/icomoon.svg#icomoon) format("svg"), url(/fonts/icomoon.woff) format("woff"), url(/fonts/icomoon.ttf) format("truetype")
-}
-
-[data-icon]:before {
-	font-family: icomoon;
-	content: attr(data-icon);
-	speak: none;
-	font-weight: 400;
-	line-height: 1;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale
-}
-
-div,
-footer,
-li {
-	position: relative
+	vertical-align: baseline;
 }
 
 * {
-	box-sizing: border-box
+	box-sizing: border-box;
 }
 
 html {
@@ -62,57 +34,59 @@ html {
 	line-height: 1.5;
 	color: #333;
 	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale
+	-moz-osx-font-smoothing: grayscale;
 }
 
 body {
-	background-color: #fff
+	line-height: 1;
+	background-color: #fff;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+div,
+footer,
+li {
+	position: relative;
 }
 
 p {
 	margin-bottom: 1.5rem;
-	line-height: 1.5
+	line-height: 1.5;
 }
 
 a {
-	color: #099ff3;
+	color: var(--color-primary);
 	text-decoration: none;
-	cursor: pointer
+	cursor: pointer;
 }
 
 a:hover {
-	color: #999
+	color: #999;
 }
 
-a p {
-	color: #333
-}
-
-a,
-a img {
-	transition: all .4s ease
+a {
+	transition: all .4s ease;
 }
 
 ::selection {
-	background: #f5f5f5
+	background: #f5f5f5;
 }
 
 ::-moz-selection {
-	background: #f5f5f5
+	background: #f5f5f5;
 }
 
-.icon-alone {
-	font-size: .8em
-}
-
-body,
-html {
-	height: 100%
+ul {
+	list-style: none;
 }
 
 img {
 	width: 100%;
-	height: auto
+	height: auto;
 }
 
 .container {
@@ -122,44 +96,35 @@ img {
 	padding: 1rem;
 	display: flex;
 	justify-content: center;
-	align-items: center
+	align-items: center;
 }
 
 #eric-head {
 	display: block;
 	max-width: 200px;
 	margin: 0 auto 1.5rem;
-	border-radius: 100%
+	border-radius: 100%;
 }
 
 footer {
 	display: block;
 	border-top: 1px solid #e6e6e6;
 	padding-top: 1em;
-	text-align: center
-}
-
-footer a {
-	color: #b3b3b3
-}
-
-footer a:hover {
-	color: #099ff3
+	text-align: center;
 }
 
 footer li {
 	display: inline;
 	margin: 0 .35em;
-	position: relative
+	position: relative;
 }
 
-footer .icon-alone {
-	font-size: 1.2em
+.mail-icon {
+	fill: #85848e;
+	transition: var(--transition);
 }
 
 .tooltip {
-	opacity: 0;
-	z-index: -3;
 	position: absolute;
 	top: -4em;
 	left: 50%;
@@ -170,9 +135,12 @@ footer .icon-alone {
 	font-size: .6em;
 	font-style: italic;
 	text-transform: lowercase;
-	background-color: #099ff3;
+	background-color: var(--color-primary);
 	color: #fff;
-	border-radius: 100%
+	border-radius: 100%;
+	opacity: 0;
+	transform: translateX(-50%) translateY(1em);
+	transition: var(--transition);
 }
 
 .tooltip:after {
@@ -185,35 +153,26 @@ footer .icon-alone {
 	margin: 0 auto;
 	border-right: .6em solid transparent;
 	border-left: .6em solid transparent;
-	border-top: .6em solid #099ff3
+	border-top: .6em solid var(--color-primary);
 }
 
 footer a:hover .tooltip {
-	z-index: 2;
-	animation-duration: .5s;
-	animation-fill-mode: both;
-	animation-name: fadeInUp
+	opacity: 1;
+	transform: translateX(-50%) translateY(0);
 }
 
-@keyframes fadeInUp {
-	0% {
-		opacity: 0;
-		transform: translateX(-50%) translateY(1em)
-	}
-	100% {
-		opacity: 1;
-		transform: translateX(-50%) translateY(0)
-	}
+footer a:hover svg {
+	fill: #333;
 }
 
 @media screen and (min-width:0px) {
 	html {
-		font-size: 110%
+		font-size: 110%;
 	}
 }
 
 @media screen and (min-width:800px) {
 	html {
-		font-size: 150%
+		font-size: 150%;
 	}
 }
