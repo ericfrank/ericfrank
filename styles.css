@@ -19,6 +19,7 @@ p {
 html {
   font-family: ff-spinoza-web-pro, serif;
   font-weight: 400;
+  font-size: 125%;
   line-height: 1.5;
   color: #333;
   -webkit-font-smoothing: antialiased;
@@ -72,12 +73,6 @@ a:hover {
   max-width: 200px;
   margin: 0 auto 1.5rem;
   border-radius: 100%;
-}
-
-@media screen and (min-width: 0px) {
-  html {
-    font-size: 110%;
-  }
 }
 
 @media screen and (min-width: 800px) {
